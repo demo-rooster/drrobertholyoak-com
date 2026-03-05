@@ -12,10 +12,10 @@
         "href": "",
         "path": "/contact",
         "hash": "#form",
-        "external": true,
+        "external": false,
         "include_icon": false,
         "icon": "pencil",
-        "color": "black"
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
@@ -63,7 +63,7 @@
       "title": "Why Choose Us",
       "items": [
         {
-          "title": "Family Oriented",
+          "title": "Family Focused",
           "icon": "people",
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-new-patients-finance.jpg",
@@ -78,7 +78,7 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Experience a warm, family-focused atmosphere where you\u0019re treated like our own.",
+          "text": "A warm, family-focused practice where every patient receives thoughtful, respectful care.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "title": "Schedule with Ease",
+          "title": "Easy Scheduling",
           "icon": "schedule-tooth",
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-new-patients-promotion.jpg",
@@ -105,7 +105,7 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Book appointments quickly by phone or text\u0019no waiting, no hassle.",
+          "text": "Book appointments quickly by phone or text — prompt, flexible options that fit your life.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "title": "Small Office, Big Care",
+          "title": "Personal Care",
           "icon": "safety-tooth",
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/parmerlaneortho-treatments-adult.jpg",
@@ -132,7 +132,7 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Enjoy personalized attention and top-quality care in our intimate office setting.",
+          "text": "Small-office atmosphere with focused attention and customized care plans for best results.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -146,7 +146,7 @@
       ],
       "button": {
         "type": "nuxt",
-        "style": "primary",
+        "style": "secondary",
         "label": "",
         "aria_label": "",
         "href": "",
@@ -172,7 +172,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Meet Dr. Jessica De Rose",
+      "title": "Meet Dr. De Rose",
       "paragraphs": [
         {
           "has_heading": false,
@@ -208,7 +208,7 @@
             "href": "",
             "path": "/about",
             "hash": "#meet-the-doctor",
-            "external": true,
+            "external": false,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -252,7 +252,7 @@
         "href": "",
         "path": "/treatments",
         "hash": "",
-        "external": true,
+        "external": false,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
@@ -282,7 +282,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-home-services-all-ages.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-home-services-all-ages.webp",
-            "alt": "Patient wearing Invisalign clear aligners Orthodontic care for children, teens, and adults Custom orthodontic retainer device Traditional metal braces",
+            "alt": "Patient wearing clear aligners, orthodontic care for all ages",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -300,7 +300,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/orthotroy-home-treatments-retainers.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/orthotroy-home-treatments-retainers.webp",
-            "alt": "Patient wearing Invisalign clear aligners Orthodontic care for children, teens, and adults Custom orthodontic retainer device Traditional metal braces",
+            "alt": "Retainers to maintain your smile",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -318,7 +318,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-home-services-braces.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-home-services-braces.webp",
-            "alt": "Patient wearing Invisalign clear aligners Orthodontic care for children, teens, and adults Custom orthodontic retainer device Traditional metal braces",
+            "alt": "Traditional metal braces treatment",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -386,7 +386,7 @@
         "hide_component": false
       },
       "has_background": true,
-      "background": "bg2",
+      "background": "bg1",
       "linear_gradient": "linear-gradient(0deg, #EFF6F8 0%, rgba(239, 246, 248, 0) 100%)"
     },
     {
@@ -527,7 +527,7 @@
         "href": "",
         "path": "/contact",
         "hash": "#form",
-        "external": false,
+        "external": true,
         "include_icon": false,
         "icon": "pencil",
         "color": "primary"
@@ -554,44 +554,43 @@
       "small": false
     },
     {
-      "seo": {
-        "page_title": "About Us | Lakeshore Orthodontics",
-        "page_description": "Learn about Lakeshore Orthodontics' commitment to personalized, family-friendly orthodontic care using modern technology and compassionate service.",
-        "page_keywords": "Orthodontics, Braces, Invisalign, Family Orthodontist, Lakeshore Orthodontics",
-        "additional_settings": false,
-        "social_meta": {
-          "og_meta": {
-            "title": "About Us | Lakeshore Orthodontics",
-            "description": "Learn about Lakeshore Orthodontics' commitment to personalized, family-friendly orthodontic care using modern technology and compassionate service.",
-            "image": ""
-          }
+      "acf_fc_layout": "block_text_simple",
+      "title": "Our Mission",
+      "paragraphs": [
+        {
+          "text": "Our mission at Lakeshore Orthodontics is to deliver personalized, compassionate care in a friendly, family-oriented setting where every patient feels valued and heard."
+        },
+        {
+          "text": "We believe that orthodontic treatment should be accessible, comfortable, and tailored to each individual's unique needs and lifestyle. Our commitment extends beyond creating beautiful smiles02we focus on building lasting relationships with our patients and their families."
+        },
+        {
+          "text": "We offer a variety of treatment options02including braces and Invisalign<sup>®</sup>02to create confident smiles with convenience and comfort."
+        },
+        {
+          "text": "Through advanced technology, gentle techniques, and flexible scheduling, we make quality orthodontic care achievable for everyone in our community, ensuring each patient leaves with not just a perfect smile, but also the confidence to share it with the world."
         }
-      }
-    }
-  ],
-  "Get Started": [
-    {
-      "acf_fc_layout": "hero",
-      "title": "Get Started",
-      "text": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "pencil",
-        "color": "black"
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
       },
-      "media_type": "image",
+      "large_title": true,
+      "center_title": false,
+      "one_column": false,
+      "add_texture": false,
+      "background": "bg2",
+      "linear_gradient": ""
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. De Rose",
+      "paragraphs": [],
       "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.webp",
-        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
+        "src": "https://d25xczrsvvsqdg.cloudfront.net/default-doctor-about.jpg",
+        "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-doctor-about.webp",
+        "alt": "Dr. Jessica De Rose smiling in her Lakeshore Orthodontics treatment room",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -601,33 +600,301 @@
         "loading_mask": "",
         "image_selection_hints": null
       },
-      "video": {
-        "src": "",
-        "webm": "",
-        "title": ""
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "Professional",
+          "paragraphs": [
+            {
+              "text": "Dr. Jessica De Rose DDS, MS, FRCD is excited to be the newest member of the Orthodontics team. Born and raised in Windsor, Ontario, she has shared a passion for dentistry and orthodontics since starting high school at Holy Names. Going through treatment herself, she naturally developed an appreciation for the field and wanted to share the experience with others by providing the utmost care for them."
+            },
+            {
+              "text": "With a passion for crafting beautiful smiles and a commitment to delivering exceptional patient care, Dr. De Rose brings fresh enthusiasm and a strong educational background to the practice."
+            }
+          ],
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-affordable.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-affordable.webp",
+            "alt": "Dr. Jessica De Rose smiling in her Lakeshore Orthodontics treatment room",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "header": "Education",
+          "paragraphs": [
+            {
+              "text": "After graduating from the University of Windsor with a major in Biological Sciences, she pursued her lifelong dream at the University of Detroit Mercy obtaining her Doctor of Dental Surgery degree. Being both inquisitive and spirited, Dr. De Rose decided to expand her horizons by venturing to Kentucky to complete her Orthodontic speciality training at the University of Louisville, where she received both her Certificate and Master of Science Degree."
+            }
+          ],
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-affordable.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-affordable.webp",
+            "alt": "Dr. Jessica De Rose smiling in her Lakeshore Orthodontics treatment room",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "header": "Personal",
+          "paragraphs": [
+            {
+              "text": "In her spare time Dr. De Rose enjoys spending time with family and friends, travelling the world, and helping others achieve their health and wellness goals as a certified personal fitness trainer. Dr. De Rose looks forward to giving back to the community one smile at a time."
+            }
+          ],
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-board.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-why-board.webp",
+            "alt": "Dr. Jessica De Rose smiling in her Lakeshore Orthodontics treatment room",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-the-doctor",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
       },
-      "small": false
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "block_grid",
+      "title": "Meet the Team",
+      "items": [
+        {
+          "name": "Team Member",
+          "position": "Clinical Assistant",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-1.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-1.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Team Member 2",
+          "position": "Treatment Coordinator",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-2.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-2.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Team Name",
+          "position": "Clinical Assistant",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-3.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-3.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Team Member Name",
+          "position": "Clinical Assistant",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-2.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-2.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Team Member 5",
+          "position": "Clinical Assistant",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-3.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-3.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Team Member 6",
+          "position": "Team name",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": {
+            "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-1.jpg",
+            "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-team-1.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "full",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "has_bio": true,
+      "large_title": false,
+      "center_title": false,
+      "background": "bg1",
+      "add_texture": false,
+      "linear_gradient": "",
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "single_image_slider",
+      "title": "Our Office",
+      "carousel_aria": "Office Tour Carousel",
+      "slides": [
+        {
+          "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-4.jpg",
+          "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-4.webp",
+          "alt": "Our office, patient chair",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-1.jpg",
+          "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-1.webp",
+          "alt": "Our office lobby",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-3.jpg",
+          "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-3.webp",
+          "alt": "Our office meeting room",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-2.jpg",
+          "webp": "https://d2jdm9a19iwpm4.cloudfront.net/about/about-office-2.webp",
+          "alt": "Our office, patient with doctors",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "primary_color": true,
+      "preserve_image": true
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "First Visit",
+      "title": "Community Involvement",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Your first visit is our chance to meet you and understand your goals. We perform a complete oral exam, take any needed X-rays, and explain the treatment options that fit your smile and lifestyle."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We will review your medical history, answer your questions, and go over financing and insurance so you leave confident about next steps."
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This section requires client input for actual community involvement activities and partnerships. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-        "alt": "Father with daughter at reception of dentist's surgery",
+        "src": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-about-community.jpg",
+        "webp": "https://d25xczrsvvsqdg.cloudfront.net/byorthodontics-about-community.webp",
+        "alt": "Graphic representing community support by Lakeshore Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -648,127 +915,8 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": true,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "block_text_simple",
-      "title": "Financing & Insurance",
-      "paragraphs": [
-        {
-          "text": "We accept most major insurance plans and file claims electronically to simplify coverage and reduce paperwork."
-        },
-        {
-          "text": "Flexible payment plans are available; our treatment coordinator will help you choose an option that fits your budget and timeline."
-        }
-      ],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "large_title": false,
-      "center_title": false,
-      "one_column": false,
-      "add_texture": false,
-      "background": "bg2",
-      "linear_gradient": ""
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "New Patient Forms",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "To make your visit faster and smoother, please complete your new patient paperwork before your appointment. We provide printable and online options plus a quick medical history update for returning patients."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/truly-yours-orthodontics-patient-info-first-6.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/truly-yours-orthodontics-patient-info-first-6.webp",
-        "alt": "Patient filling out orthodontic health history forms online",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "video": {
-        "type": "file",
-        "src": ""
-      },
-      "buttons": [
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Printable Health History Form",
-            "aria_label": "printable health history form",
-            "href": "",
-            "path": "",
-            "hash": "",
-            "external": false,
-            "include_icon": false,
-            "icon": "pencil",
-            "color": "black"
-          }
-        },
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Online Health History Form",
-            "aria_label": "online health history form",
-            "href": "",
-            "path": "",
-            "hash": "",
-            "external": false,
-            "include_icon": false,
-            "icon": "envelope",
-            "color": "black"
-          }
-        },
-        {
-          "button": {
-            "type": "anchor",
-            "style": "secondary",
-            "label": "Medical History Update Form",
-            "aria_label": "medical history update form",
-            "href": "",
-            "path": "",
-            "hash": "",
-            "external": false,
-            "include_icon": false,
-            "icon": "phone",
-            "color": "black"
-          }
-        }
-      ],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
       "reverse": true,
-      "has_buttons": true,
+      "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
@@ -831,15 +979,72 @@
     },
     {
       "seo": {
-        "page_title": "Get Started | Lakeshore Orthodontics",
-        "page_description": "Start your smile journey with Lakeshore Orthodontics. Learn what to expect at your first visit, access new patient forms, and schedule a consultation.",
-        "page_keywords": "orthodontics, new patient, first visit, patient forms, financing",
+        "page_title": "About Us | Lakeshore Orthodontics",
+        "page_description": "Learn about Lakeshore Orthodontics' mission to provide family-friendly orthodontic care with an experienced team and flexible scheduling.",
+        "page_keywords": "Orthodontics, Braces, Invisalign, Family Orthodontist, Lakeshore Orthodontics",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Get Started | Lakeshore Orthodontics",
-            "description": "Start your smile journey with Lakeshore Orthodontics. Learn what to expect at your first visit, access new patient forms, and schedule a consultation.",
-            "image": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg"
+            "title": "About Us | Lakeshore Orthodontics",
+            "description": "Learn about Lakeshore Orthodontics' mission to provide family-friendly orthodontic care with an experienced team and flexible scheduling.",
+            "image": ""
+          }
+        }
+      }
+    }
+  ],
+  "Get Started": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Get Started",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "primary"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg",
+        "webp": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.webp",
+        "alt": "Smiling family welcomed at our orthodontic front desk",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "New Patients Hero"
+        }
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": false
+    },
+    {
+      "seo": {
+        "page_title": "Get Started | Your Orthodontic Practice",
+        "page_description": "Start your orthodontic journey with a friendly first visit, easy-to-complete patient forms, and flexible payment options. Schedule your consultation today.",
+        "page_keywords": "orthodontics, first visit, patient forms, financing, new patients",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "Get Started | Your Orthodontic Practice",
+            "description": "Start your orthodontic journey with a friendly first visit, easy-to-complete patient forms, and flexible payment options. Schedule your consultation today.",
+            "image": "https://d2jdm9a19iwpm4.cloudfront.net/get-started/get-started-hero-v2.jpg"
           }
         }
       }
@@ -891,7 +1096,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "We create treatment plans that fit each stage of life: early evaluation for children, practical options for teens, and discreet solutions for adults. Our goal is comfortable, predictable care that fits your schedule and goals."
+          "text": "We create personalized treatment plans for children, teens, and adults, blending gentle care with clear communication so every patient feels confident and informed."
         }
       ],
       "accordion": [
@@ -899,7 +1104,7 @@
           "header": "Early Intervention",
           "paragraphs": [
             {
-              "text": "We begin care as early as age 7 to guide jaw growth and reduce the need for more complex treatment later, often making future orthodontics quicker and gentler."
+              "text": "Starting evaluations as early as age seven helps us guide jaw growth and prevent more complex problems later, often making treatment quicker and less invasive."
             }
           ],
           "image": {
@@ -913,7 +1118,7 @@
           "header": "Teens & Adolescents",
           "paragraphs": [
             {
-              "text": "Teen-friendly treatments, from metal braces to clear options, help adolescents get great results while staying active and confident at school and activities."
+              "text": "We offer teen-friendly options, including discreet ceramic braces and clear aligners, to keep treatment effective without sidelining confidence."
             }
           ],
           "image": {
@@ -927,7 +1132,7 @@
           "header": "Adult Orthodontics",
           "paragraphs": [
             {
-              "text": "Whether you choose clear aligners or low-profile braces, our adult options are designed for comfort and minimal disruption to work and lifestyle."
+              "text": "For adult lifestyles we provide flexible solutions, including clear treatment options that fit work, family, and social commitments."
             }
           ],
           "image": {
@@ -983,7 +1188,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Metal braces remain a reliable, cost-effective choice. Small brackets and durable wires apply precise forces to move teeth efficiently for a wide range of bite and alignment issues."
+          "text": "Metal braces remain a dependable, cost-effective choice for complex tooth movement, offering precise control throughout treatment."
         }
       ],
       "accordion": [],
@@ -1017,7 +1222,7 @@
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
-      "has_background": false,
+      "has_background": true,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -1027,12 +1232,12 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Clear Ceramic Braces",
+      "title": "Clear / Ceramic Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Ceramic braces use tooth-colored brackets for a subtler look while delivering the same controlled tooth movement as traditional braces, making them popular with image-conscious teens and adults."
+          "text": "Ceramic braces use tooth-colored materials to make treatment less noticeable while still delivering dependable results for many types of alignment issues."
         }
       ],
       "accordion": [],
@@ -1076,17 +1281,17 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Invisalign<sup>®</sup> Clear Aligners",
+      "title": "InvisalignAE Clear Aligners",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Invisalign<sup>®</sup> aligners are clear, removable trays fabricated from advanced 3D imaging. They move teeth gently while letting you eat and brush normally."
+          "text": "InvisalignAE aligners are clear, removable trays that use advanced 3D planning to move teeth with predictable, staged steps."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use digital scans to design predictable aligner series and monitor progress so you get efficient, comfortable treatment tailored to your lifestyle."
+          "text": "Because they are removable, you can brush and floss normally and enjoy fewer dietary restrictions during treatment."
         }
       ],
       "accordion": [],
@@ -1109,7 +1314,7 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "invisalign-clear-aligners",
+        "hash": "invisalign",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1135,14 +1340,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Lingual braces attach to the tongue side of teeth so they’re hidden from view. They offer the control of fixed appliances with a discreet appearance, ideal for adults who want an unseen option."
+          "text": "Lingual braces attach to the back of the teeth, keeping hardware out of sight while still providing the control of traditional braces for appropriate cases."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/default-adult-treatment.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-adult-treatment.webp",
-        "alt": "Adult patient receiving orthodontic treatment",
+        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/165319819_Two_stylish_smiling_teens_taking_selfie.jpg",
+        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/165319819_Two_stylish_smiling_teens_taking_selfie.jpg",
+        "alt": "Two stylish smiling teens taking selfie with braces",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1179,17 +1384,66 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Orthognathic (Jaw) Surgery",
+      "title": "Accelerated Orthodontics",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "For complex jaw discrepancies we coordinate surgical and orthodontic care to restore function and facial balance. Our team plans each case carefully to combine surgical precision with orthodontic expertise."
+          "text": "When appropriate, adjunctive techniques and technologies may help reduce treatment time and improve comfort, all planned with your long-term stability in mind."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/33367648_dentist_office_interior.jpg",
+        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/33367648_dentist_office_interior.jpg",
+        "alt": "Modern dentist office interior with advanced technology",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "accelerated-orthodontics",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Orthognathic Surgery Coordination",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "For significant jaw discrepancies, we coordinate closely with oral and maxillofacial surgeons to plan combined surgical and orthodontic care that restores function and facial balance."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We work closely with oral and maxillofacial surgeons to ensure clear communication, predictable timing, and supportive follow-up for the best long-term results."
+          "text": "Our team focuses on detailed planning and clear communication so surgical cases proceed smoothly and predictably."
         }
       ],
       "accordion": [],
@@ -1217,7 +1471,7 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": true,
+      "reverse": false,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
@@ -1233,17 +1487,17 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Retainers: Fixed & Removable",
+      "title": "Retainers & Retention",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "After active treatment, retainers preserve your results. We offer custom removable retainers and bonded fixed options with a program designed to protect your smile long term."
+          "text": "Retention is an essential part of treatment. We provide custom removable and fixed retainers plus follow-up guidance to help your results last."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "Retention is the final step in orthodontics. Our team provides clear instructions and follow-up to help you keep your new smile for years to come."
+          "text": "Our team reviews wear schedules and care instructions to make maintenance simple and effective."
         }
       ],
       "accordion": [],
@@ -1271,101 +1525,9 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Advanced Digital Technology",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Digital tools improve comfort, speed, and predictability. We use modern scanning, imaging, and planning software to design efficient orthodontic care with fewer surprises."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "iTero Digital Scanning",
-          "paragraphs": [
-            {
-              "text": "Fast, radiation-free scans capture precise 3D images for accurate treatment planning and aligner design."
-            }
-          ],
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-itero-scanning.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-itero-scanning.webp",
-            "alt": "iTero digital scanner in use during orthodontic consultation",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "Digital X-Rays",
-          "paragraphs": [
-            {
-              "text": "High-resolution digital radiography provides detailed images with less radiation than traditional film."
-            }
-          ],
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.webp",
-            "alt": "Digital X-ray equipment showing detailed orthodontic imaging",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "header": "3D Treatment Planning",
-          "paragraphs": [
-            {
-              "text": "Advanced software simulates tooth movement so you can see a virtual preview of likely outcomes before treatment begins."
-            }
-          ],
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.webp",
-            "alt": "3D treatment planning software showing orthodontic simulation",
-            "image_selection_hints": null
-          }
-        }
-      ],
-      "image": {
-        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/33367648_dentist_office_interior.jpg",
-        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/33367648_dentist_office_interior.jpg",
-        "alt": "Modern dentist office interior with advanced technology",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "technology",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
       "reverse": true,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -1428,13 +1590,13 @@
     {
       "seo": {
         "page_title": "Treatments | Lakeshore Orthodontics",
-        "page_description": "Explore our orthodontic treatments for children, teens, and adults, including braces, Invisalign®, lingual braces, surgery, and retainers.",
-        "page_keywords": "orthodontics, braces, Invisalign, lingual braces, retainers, orthognathic surgery, orthodontic technology",
+        "page_description": "Discover Lakeshore Orthodontics' comprehensive treatments for all ages, from early intervention to braces, Invisalign\u0000AE and more.",
+        "page_keywords": "orthodontic treatments, braces, Invisalign, early intervention, adult orthodontics, retainers",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Treatments | Lakeshore Orthodontics",
-            "description": "Explore our orthodontic treatments for children, teens, and adults, including braces, Invisalign®, lingual braces, surgery, and retainers.",
+            "description": "Discover Lakeshore Orthodontics' comprehensive treatments for all ages, from early intervention to braces, Invisalign\u0000AE and more.",
             "image": "https://d2jdm9a19iwpm4.cloudfront.net/treatments/treatments-hero.jpg"
           }
         }
@@ -1456,19 +1618,19 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.webp",
-        "alt": "Orthodontic reception desk with appointment book and phone",
+        "src": "https://via.placeholder.com/1600x900?text=Contact+Us+Hero",
+        "webp": "",
+        "alt": "Bright, welcoming dental reception area with smiling staff member ready to help",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
-        "objectPosition": "",
+        "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
@@ -1510,15 +1672,15 @@
     },
     {
       "seo": {
-        "page_title": "Contact Us | Schedule Consultation",
-        "page_description": "Get in touch to schedule an orthodontic consultation, ask questions, or find office hours and location. We're here to help every step of the way.",
-        "page_keywords": "contact orthodontist, schedule consultation, office hours, new patients",
+        "page_title": "Contact",
+        "page_description": "Reach out to schedule an appointment or ask a question. Provide your contact details and we'll respond promptly.",
+        "page_keywords": "contact, appointment, orthodontics, dental office, contact form",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Contact Us | Schedule Consultation",
-            "description": "Get in touch to schedule an orthodontic consultation, ask questions, or find office hours and location. We're here to help every step of the way.",
-            "image": "https://d2jdm9a19iwpm4.cloudfront.net/contact/contact-hero.jpg"
+            "title": "Contact",
+            "description": "Reach out to schedule an appointment or ask a question. Provide your contact details and we'll respond promptly.",
+            "image": ""
           }
         }
       }
@@ -1554,9 +1716,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "FAQ Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -1566,227 +1726,15 @@
       "small": true
     },
     {
-      "acf_fc_layout": "accordion",
-      "title": "FAQ",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Find answers to common questions about treatment options, appointment scheduling, and payment plans at Lakeshore Orthodontics."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "What orthodontic treatments do you offer?",
-          "paragraphs": [
-            {
-              "text": "We provide traditional braces for children, teens, and adults, clear Invisalign<sup>®</sup> aligners for a discreet option, and custom retainers to protect your finished smile."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.webp",
-            "alt": "Happy Family Portrait",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "At what age should my child see an orthodontist?",
-          "paragraphs": [
-            {
-              "text": "The American Association of Orthodontists recommends an orthodontic evaluation by age 7. Early visits let us monitor development and plan any needed treatment at the right time."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
-            "alt": "Couple Enjoying Time Together",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Kid"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How long does treatment usually take?",
-          "paragraphs": [
-            {
-              "text": "Treatment times vary by case, but many patients finish active treatment within 12 to 24 months. We’ll give you a personalized timeline after your initial exam."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.webp",
-            "alt": "Collaborative Team Spirit Moment",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Experienced"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "What payment and insurance options are available?",
-          "paragraphs": [
-            {
-              "text": "We offer flexible monthly payment plans and accept most major dental insurance carriers. Our team will review your coverage and help you choose the best financing option."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.webp",
-            "alt": "Smiling Man Working at Desk",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Flexible Payments"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        },
-        {
-          "header": "How can I schedule an appointment?",
-          "paragraphs": [
-            {
-              "text": "Scheduling is easy: call or text us at 519-979-5500, or request an appointment online through our contact form. We’ll work with your schedule to find a convenient time."
-            }
-          ],
-          "has_media": false,
-          "media_type": "image",
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.webp",
-            "alt": "Mother and Daughter Smiling Together",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Contact Hero"
-            }
-          },
-          "video": {
-            "type": "embedded",
-            "src": ""
-          }
-        }
-      ],
-      "component_options": {
-        "hash": "",
-        "component_padding": "full",
-        "component_margins": "full",
-        "hide_component": false
-      }
-    },
-    {
-      "acf_fc_layout": "multi_use_banner",
-      "title": "Ready to get started?",
-      "content_block": "text_block",
-      "text": "",
-      "social_links": [],
-      "email": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "schedule consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "",
-        "color": ""
-      },
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "background_type": "has_background",
-      "background": "bg2",
-      "add_texture": false,
-      "linear_gradient": "",
-      "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/droubre-home-social-banner.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/droubre-home-social-banner.webp",
-        "alt": "Enjoying Time Together",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "reversed": false,
-      "centered": true,
-      "large_title": true,
-      "text_color": "primary"
-    },
-    {
       "seo": {
-        "page_title": "FAQ | Lakeshore Orthodontics",
-        "page_description": "Find answers to common questions about orthodontic treatments, scheduling, and payment options at Lakeshore Orthodontics.",
-        "page_keywords": "orthodontics, braces, Invisalign, FAQ, payment plans, Lakeshore Orthodontics",
+        "page_title": "FAQ | Our Practice",
+        "page_description": "Answers to common questions about orthodontic treatments, scheduling, and payment options at our office.",
+        "page_keywords": "orthodontics, braces, Invisalign, FAQ, payment plans",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "FAQ | Lakeshore Orthodontics",
-            "description": "Find answers to common questions about orthodontic treatments, scheduling, and payment options at Lakeshore Orthodontics.",
+            "title": "FAQ | Our Practice",
+            "description": "Answers to common questions about orthodontic treatments, scheduling, and payment options at our office.",
             "image": ""
           }
         }
