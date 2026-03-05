@@ -2,7 +2,7 @@
   "enable_development_mode": false,
   "company_name": "Stinson Orthodontics",
   "domain": "stinson.roostergrintemplates.com",
-  "email": "info@roostergrin.com",
+  "email": "info@stinson.com",
   "phone": {
     "number": "415-528-2520",
     "href": "tel:+14155282520",
@@ -144,7 +144,7 @@
     "image": {
       "src": "https://d2jdm9a19iwpm4.cloudfront.net/stinson-logo.svg",
       "webp": "",
-      "alt": "",
+      "alt": "Stinson Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
